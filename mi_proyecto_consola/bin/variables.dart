@@ -11,4 +11,6 @@ main (){
 
   // datis dinámicos
   var dinamico = 10.9;
+  dynamic variableDinamica = 'este es un texto';
+
 }
