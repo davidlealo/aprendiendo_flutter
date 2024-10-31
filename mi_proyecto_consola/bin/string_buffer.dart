@@ -7,4 +7,6 @@ main(List<String> args){
   buffer.writeAll(['primera', 'segunda', 'tercera']);
   print(buffer.length);
 
+  print(buffer);
+
 }
