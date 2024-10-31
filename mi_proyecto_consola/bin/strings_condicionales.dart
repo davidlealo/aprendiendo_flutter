@@ -15,4 +15,15 @@ main(List<String> args){
 
   print(correo.length);
 
+  String correo_con_espacio;
+  
+ correo_con_espacio = ' correo@correo.cl ';
+ String mensaje2;
+
+ mensaje2 = correo.contains(('@')) ? 'Es un correo electrónico' : 'No es un correo electrónico';
+ print(mensaje2);
+
+ mensaje2 = correo.contains(('@')) && correo.trim().endsWith('.com') ? 'Es un correo electrónico' : 'No es un correo electrónico';
+ print(mensaje2);
+
 }
