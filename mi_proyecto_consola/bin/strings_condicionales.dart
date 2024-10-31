@@ -26,4 +26,6 @@ main(List<String> args){
  mensaje2 = correo.contains(('@')) && correo.trim().endsWith('.com') ? 'Es un correo electrónico' : 'No es un correo electrónico';
  print(mensaje2);
 
+ print(correo.toLowerCase());
+
 }
