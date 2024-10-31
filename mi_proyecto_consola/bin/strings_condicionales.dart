@@ -27,7 +27,20 @@ main(List<String> args){
  print(mensaje2);
 
  print(correo.toLowerCase());
-  print(correo.toUpperCase());
+ print(correo.toUpperCase());
 
+ String correo_con_numero;
+
+ correo_con_numero = 'mail@mail.com123';
+
+ String mensaje3;
+
+ mensaje3 = correo_con_numero.contains(('@')) ? 'Es un correo electrónico' : 'No es un correo electrónico';
+ print(mensaje3);
+ print(correo_con_numero.toLowerCase());
+ print(correo_con_numero.toUpperCase());
+
+ mensaje3 = correo_con_numero.contains(('@')) && correo.trim().replaceAll('123', '').endsWith('.com') ? 'Es un correo electrónico' : 'No es un correo electrónico';
+ print(mensaje3);
 
 }
