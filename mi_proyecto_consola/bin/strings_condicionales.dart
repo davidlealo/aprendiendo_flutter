@@ -27,5 +27,7 @@ main(List<String> args){
  print(mensaje2);
 
  print(correo.toLowerCase());
+  print(correo.toUpperCase());
+
 
 }
