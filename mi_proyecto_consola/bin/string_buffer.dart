@@ -9,4 +9,8 @@ main(List<String> args){
 
   print(buffer);
 
+  buffer.clear();
+
+  print(buffer.isEmpty);
+
 }
