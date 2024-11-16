@@ -13,4 +13,7 @@ void main (){
   };
 
   print('Name: ${ pokemon['name'] }');
+    
+  print('Front sprite: ${pokemon['sprites'] }');
+
 }
